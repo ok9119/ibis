@@ -1,8 +1,9 @@
-# ibis
+We present our implementation of a cross-experiment prediction model for the **Genomic to Artificial Sequences (G2A) primary track of the 2024 IBIS challenge**. https://ibis.autosome.org/home
 
+### Download datasets
+https://ibis.autosome.org/download_data/final
 
-## https://ibis.autosome.org/download_data/final
-
+### Description
 Both ChIP-seq and GHTS data were used for training. First, 40-nt-long DNA sequences that
 flanked the abs_summit coordinates were retrieved for all transcription factors (TFs). Then,
 the sequences were split into overlapping 8-mers with a 1-nt step. To achieve equivariance,
